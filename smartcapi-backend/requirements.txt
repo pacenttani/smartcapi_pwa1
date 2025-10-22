@@ -1,0 +1,43 @@
+
+
+# SmartCAPI Backend Requirements
+
+# Core Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Database (pilih salah satu atau keduanya)
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9  # PostgreSQL
+# mysql-connector-python==8.2.0  # MySQL (uncomment jika pakai MySQL)
+
+# Utilities
+python-dotenv==1.0.0
+pydantic==2.5.0
+
+# Optional: Untuk transcription (Whisper)
+# openai-whisper==20231117
+# torch==2.1.0
+
+# Optional: Untuk testing
+# pytest==7.4.3
+# httpx==0.25.2
+
+# requirements.txt
+fastapi
+flask
+numpy
+pandas
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary
+pydantic
+werkzeug
+python-multipart
+alembic
+scikit-learn
+pyaudio
+pydub
+openai
+passlib[bcrypt]
